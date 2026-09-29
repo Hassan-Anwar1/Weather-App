@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+        <p>Search for any city to get current weather details</p>
+    </header>
+
+    <section>
+        <input id="city" placeholder="Enter city name" required>
+        <button id="search" type="submit">Search</button>
+    </section>
+
+    <main>
+        <div class="loader" id="loader"></div>
+        <div class="weather"></div>
+    </main>
+
+    <footer>
+        <p id="copyright">&copy; 2026 OpenWeatherMap. All rights are reserved.</p>
+    </footer>
+
+    <script src="App.js"></script>
+</body>
+</html>
